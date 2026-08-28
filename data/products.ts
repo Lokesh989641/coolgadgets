@@ -16,7 +16,7 @@ export const products: Product[] = [
     category: "Computer Accessories",
     price: "₹680",
     rating: 4.5,
-    image: "https://m.media-amazon.com/images/I/61PheP657EL.jpg",
+    image: "/products/product-1.svg",
     description:
       "A stylish transparent wireless mouse with Bluetooth 5.3, 2.4 GHz connectivity, rechargeable battery and adjustable sensitivity.",
     affiliateUrl:
@@ -28,7 +28,7 @@ export const products: Product[] = [
     category: "Home & Kitchen",
     price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=Spider-Man+Dish",
+    image: "/products/product-2.svg",
     description:
       "A Spider-Man themed kitchen and dining product with a fun design for fans and everyday use.",
     affiliateUrl:
@@ -38,9 +38,9 @@ export const products: Product[] = [
     id: 3,
     name: "WAVII Ceramic Coffee Mug",
     category: "Home & Kitchen",
-    price: "₹249",
+    price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=WAVII+Coffee+Mug",
+    image: "/products/product-3.svg",
     description:
       "A stylish ceramic coffee mug from WAVII, suitable for everyday coffee, tea and gifting.",
     affiliateUrl:
@@ -50,9 +50,9 @@ export const products: Product[] = [
     id: 4,
     name: "TASMAX Kitchen Storage Box Set",
     category: "Home & Kitchen",
-    price: "₹349",
+    price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=TASMAX+Storage",
+    image: "/products/product-4.svg",
     description:
       "Multipurpose kitchen storage containers designed for organizing spices, grains, snacks and other items.",
     affiliateUrl:
@@ -62,9 +62,9 @@ export const products: Product[] = [
     id: 5,
     name: "PALAY Compact Travel Umbrella",
     category: "Travel",
-    price: "₹989",
+    price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=PALAY+Umbrella",
+    image: "/products/product-5.svg",
     description:
       "A compact travel umbrella designed for convenient everyday carrying and protection from sun and rain.",
     affiliateUrl:
@@ -76,7 +76,7 @@ export const products: Product[] = [
     category: "Stationery",
     price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=Spider-Man+Notebook",
+    image: "/products/product-6.svg",
     description:
       "A Spider-Man themed unruled notebook suitable for journaling, notes, sketches and everyday writing.",
     affiliateUrl:
@@ -86,9 +86,9 @@ export const products: Product[] = [
     id: 7,
     name: "Lifelong ZenCharge Power Bank",
     category: "Mobile Accessories",
-    price: "₹999",
+    price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=Lifelong+Power+Bank",
+    image: "/products/product-7.svg",
     description:
       "A compact fast-charging power bank designed for convenient charging of smartphones and other compatible devices.",
     affiliateUrl:
@@ -98,9 +98,9 @@ export const products: Product[] = [
     id: 8,
     name: "NYRWANA Rechargeable LED Table Lamp",
     category: "Home Decor",
-    price: "₹799",
+    price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=NYRWANA+Lamp",
+    image: "/products/product-8.svg",
     description:
       "A rechargeable LED table lamp with adjustable brightness, suitable for bedrooms, desks and ambient lighting.",
     affiliateUrl:
@@ -112,7 +112,7 @@ export const products: Product[] = [
     category: "Home & Kitchen",
     price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=Cleaning+Tool",
+    image: "/products/product-9.svg",
     description:
       "A handy cleaning product designed for convenient everyday household cleaning.",
     affiliateUrl:
@@ -124,7 +124,7 @@ export const products: Product[] = [
     category: "Home & Kitchen",
     price: "Check price",
     rating: 0,
-    image: "https://placehold.co/800x800?text=Kleenest+Cleaner",
+    image: "/products/product-10.svg",
     description:
       "A multipurpose cleaning product designed to make everyday household cleaning easier.",
     affiliateUrl:
