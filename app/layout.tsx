@@ -5,10 +5,6 @@ import Navbar from "../components/Navbar";
 export const metadata: Metadata = {
   metadataBase: new URL("https://coolgadgets-mu.vercel.app"),
 
-  verification: {
-    google: "1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU",
-  },
-
   title: {
     default: "CoolGadgets — Discover Cool & Useful Products",
     template: "%s | CoolGadgets",
@@ -77,6 +73,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google Search Console verification */}
+        <meta
+          name="google-site-verification"
+          content="1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU"
+        />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
