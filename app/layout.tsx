@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 export const metadata: Metadata = {
   metadataBase: new URL("https://coolgadgets-mu.vercel.app"),
 
-  // Google Search Console verification
   verification: {
     google: "1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU",
   },
@@ -37,7 +36,7 @@ export const metadata: Metadata = {
   publisher: "CoolGadgets",
 
   alternates: {
-    canonical: "/",
+    canonical: "https://coolgadgets-mu.vercel.app/",
   },
 
   robots: {
@@ -55,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://coolgadgets-mu.vercel.app",
+    url: "https://coolgadgets-mu.vercel.app/",
     siteName: "CoolGadgets",
     title: "CoolGadgets — Discover Cool & Useful Products",
     description:
