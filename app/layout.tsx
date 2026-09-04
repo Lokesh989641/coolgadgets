@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     default: "CoolGadgets — Discover Cool & Useful Products",
     template: "%s | CoolGadgets",
   },
+    verification: {
+    google: "1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU",
+  },
 
   description:
     "Discover cool gadgets, useful accessories, smart home products, travel essentials and unique finds worth knowing about.",
