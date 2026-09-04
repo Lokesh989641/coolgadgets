@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://coolgadgets-mu.vercel.app"),
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
     default: "CoolGadgets — Discover Cool & Useful Products",
     template: "%s | CoolGadgets",
   },
-    verification: {
+
+  verification: {
     google: "1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU",
   },
 
@@ -75,28 +77,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Google Search Console verification */}
-        <meta
-          name="google-site-verification"
-          content="1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU"
-        />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-
       <body>
         <Navbar />
         {children}
+
+        <GoogleAnalytics gaId="G-XYNQ6T7V3M" />
       </body>
     </html>
   );

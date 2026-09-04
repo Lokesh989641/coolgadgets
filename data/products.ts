@@ -19,7 +19,8 @@ export const products: Product[] = [
     price: "₹680",
     rating: 4.5,
     image: "/products/product-1.jpg",
-    description: "A stylish transparent wireless mouse with Bluetooth 5.3, 2.4 GHz connectivity, rechargeable battery and adjustable sensitivity.",
+    description:
+      "A stylish transparent wireless mouse with Bluetooth 5.3, 2.4 GHz connectivity, rechargeable battery and adjustable sensitivity.",
     affiliateUrl: "https://www.amazon.in/dp/B0DM1LWDZF?tag=coolgadge0f84-21",
   },
   {
@@ -30,7 +31,8 @@ export const products: Product[] = [
     price: "₹388",
     rating: 0,
     image: "/products/product-2.jpg",
-    description: "A Spider-Man themed kitchen and dining product with a fun design for fans and everyday use.",
+    description:
+      "A Spider-Man themed kitchen and dining product with a fun design for fans and everyday use.",
     affiliateUrl: "https://www.amazon.in/dp/B0GTW7WMW3?tag=coolgadge0f84-21",
   },
   {
@@ -41,7 +43,8 @@ export const products: Product[] = [
     price: "₹249",
     rating: 0,
     image: "/products/product-3.jpg",
-    description: "A stylish ceramic coffee mug from WAVII, suitable for everyday coffee, tea and gifting.",
+    description:
+      "A stylish ceramic coffee mug from WAVII, suitable for everyday coffee, tea and gifting.",
     affiliateUrl: "https://www.amazon.in/dp/B0H1MMWKFK?tag=coolgadge0f84-21",
   },
   {
@@ -52,7 +55,8 @@ export const products: Product[] = [
     price: "₹349",
     rating: 0,
     image: "/products/product-4.jpg",
-    description: "Multipurpose kitchen storage containers designed for organizing spices, grains, snacks and other items.",
+    description:
+      "Multipurpose kitchen storage containers designed for organizing spices, grains, snacks and other items.",
     affiliateUrl: "https://www.amazon.in/dp/B0H142XYM7?tag=coolgadge0f84-21",
   },
   {
@@ -63,7 +67,8 @@ export const products: Product[] = [
     price: "₹749",
     rating: 0,
     image: "/products/product-5.jpg",
-    description: "A compact travel umbrella designed for convenient everyday carrying and protection from sun and rain.",
+    description:
+      "A compact travel umbrella designed for convenient everyday carrying and protection from sun and rain.",
     affiliateUrl: "https://www.amazon.in/dp/B0DQ43Q6YC?tag=coolgadge0f84-21",
   },
   {
@@ -74,7 +79,8 @@ export const products: Product[] = [
     price: "₹199",
     rating: 0,
     image: "/products/product-6.jpg",
-    description: "A Spider-Man themed unruled notebook suitable for journaling, notes, sketches and everyday writing.",
+    description:
+      "A Spider-Man themed unruled notebook suitable for journaling, notes, sketches and everyday writing.",
     affiliateUrl: "https://www.amazon.in/dp/B0G5GVZ8NT?tag=coolgadge0f84-21",
   },
   {
@@ -85,7 +91,8 @@ export const products: Product[] = [
     price: "₹999",
     rating: 0,
     image: "/products/product-7.jpg",
-    description: "A compact fast-charging power bank designed for convenient charging of smartphones and other compatible devices.",
+    description:
+      "A compact fast-charging power bank designed for convenient charging of smartphones and other compatible devices.",
     affiliateUrl: "https://www.amazon.in/dp/B0D5HTDWSC?tag=coolgadge0f84-21",
   },
   {
@@ -96,7 +103,8 @@ export const products: Product[] = [
     price: "₹799",
     rating: 0,
     image: "/products/product-8.jpg",
-    description: "A rechargeable LED table lamp with adjustable brightness, suitable for bedrooms, desks and ambient lighting.",
+    description:
+      "A rechargeable LED table lamp with adjustable brightness, suitable for bedrooms, desks and ambient lighting.",
     affiliateUrl: "https://www.amazon.in/dp/B0CT2SGVWJ?tag=coolgadge0f84-21",
   },
   {
@@ -107,7 +115,8 @@ export const products: Product[] = [
     price: "₹249",
     rating: 0,
     image: "/products/product-9.jpg",
-    description: "A handy cleaning product designed for convenient everyday household cleaning.",
+    description:
+      "A handy cleaning product designed for convenient everyday household cleaning.",
     affiliateUrl: "https://www.amazon.in/dp/B0GPN9R146?tag=coolgadge0f84-21",
   },
   {
@@ -118,7 +127,8 @@ export const products: Product[] = [
     price: "₹299",
     rating: 0,
     image: "/products/product-10.jpg",
-    description: "A multipurpose cleaning product designed to make everyday household cleaning easier.",
+    description:
+      "A multipurpose cleaning product designed to make everyday household cleaning easier.",
     affiliateUrl: "https://www.amazon.in/dp/B0FP4S4JX2?tag=coolgadge0f84-21",
   },
   {
@@ -129,7 +139,8 @@ export const products: Product[] = [
     price: "₹198",
     rating: 0,
     image: "/products/product-11.jpg",
-    description: "Transparent adhesive hooks designed for convenient wall storage and organization without traditional drilling.",
+    description:
+      "Transparent adhesive hooks designed for convenient wall storage and organization without traditional drilling.",
     affiliateUrl: "https://www.amazon.in/dp/B0CCM8L54V?tag=coolgadge0f84-21",
   },
   {
@@ -140,7 +151,8 @@ export const products: Product[] = [
     price: "₹299",
     rating: 0,
     image: "/products/product-12.jpg",
-    description: "A compact corner shelf organizer designed to make better use of unused corners and keep everyday items organized.",
+    description:
+      "A compact corner shelf organizer designed to make better use of unused corners and keep everyday items organized.",
     affiliateUrl: "https://www.amazon.in/dp/B0G4RNDJF6?tag=coolgadge0f84-21",
   },
   {
@@ -151,7 +163,8 @@ export const products: Product[] = [
     price: "₹299",
     rating: 0,
     image: "/products/product-13.jpg",
-    description: "A convenient microfiber cleaning cloth roll suitable for household surfaces, appliances, furniture and everyday cleaning.",
+    description:
+      "A convenient microfiber cleaning cloth roll suitable for household surfaces, appliances, furniture and everyday cleaning.",
     affiliateUrl: "https://www.amazon.in/dp/B0FS1VB862?tag=coolgadge0f84-21",
   },
   {
@@ -162,7 +175,8 @@ export const products: Product[] = [
     price: "₹178",
     rating: 0,
     image: "/products/product-14.jpg",
-    description: "A practical kitchen sink organizer combining dishwashing storage and convenient access to cleaning supplies.",
+    description:
+      "A practical kitchen sink organizer combining dishwashing storage and convenient access to cleaning supplies.",
     affiliateUrl: "https://www.amazon.in/dp/B0GMXHKVJQ?tag=coolgadge0f84-21",
   },
   {
@@ -173,7 +187,310 @@ export const products: Product[] = [
     price: "₹139",
     rating: 0,
     image: "/products/product-15.jpg",
-    description: "A protective accessory designed to help reduce wear and damage around charging cables and connectors.",
+    description:
+      "A protective accessory designed to help reduce wear and damage around charging cables and connectors.",
     affiliateUrl: "https://www.amazon.in/dp/B0B63BCRZ8?tag=coolgadge0f84-21",
+  },
+
+  {
+    id: 16,
+    asin: "B08HN9Q2SZ",
+    name: "Smart Plug",
+    category: "Home & Kitchen",
+    price: "₹999",
+    rating: 4.2,
+    image: "/products/product-16.jpg",
+    description:
+      "A convenient smart plug that lets you control connected appliances more easily and bring smart-home convenience to everyday devices.",
+    affiliateUrl: "https://www.amazon.in/dp/B08HN9Q2SZ?tag=coolgadge0f84-21",
+  },
+  {
+    id: 17,
+    asin: "B0D4J1YQ2W",
+    name: "Conbre Smart Plug with Energy Monitoring",
+    category: "Home & Kitchen",
+    price: "₹799",
+    rating: 4.2,
+    image: "/products/product-17.jpg",
+    description:
+      "A smart plug designed for convenient appliance control with useful energy-monitoring features for a smarter home.",
+    affiliateUrl: "https://www.amazon.in/dp/B0D4J1YQ2W?tag=coolgadge0f84-21",
+  },
+  {
+    id: 18,
+    asin: "B0CJJ3K2CB",
+    name: "Halonix Smart Switch",
+    category: "Home & Kitchen",
+    price: "₹194",
+    rating: 4.2,
+    image: "/products/product-18.jpg",
+    description:
+      "A compact smart switch that adds convenient control and a modern touch to your home's lighting setup.",
+    affiliateUrl: "https://www.amazon.in/dp/B0CJJ3K2CB?tag=coolgadge0f84-21",
+  },
+  {
+    id: 19,
+    asin: "B0CH82JHLP",
+    name: "Bluetooth Enabled Dimmable Smart Light",
+    category: "Home & Kitchen",
+    price: "₹412",
+    rating: 4.2,
+    image: "/products/product-19.jpg",
+    description:
+      "A versatile smart light with Bluetooth connectivity and dimming control, ideal for creating the right atmosphere at home.",
+    affiliateUrl: "https://www.amazon.in/dp/B0CH82JHLP?tag=coolgadge0f84-21",
+  },
+  {
+    id: 20,
+    asin: "B095SWYF6M",
+    name: "Wipro Smart LED Light",
+    category: "Home & Kitchen",
+    price: "₹649",
+    rating: 4.2,
+    image: "/products/product-20.jpg",
+    description:
+      "A smart LED lighting option designed for convenient control and flexible everyday home lighting.",
+    affiliateUrl: "https://www.amazon.in/dp/B095SWYF6M?tag=coolgadge0f84-21",
+  },
+  {
+    id: 21,
+    asin: "B07LF3PQYF",
+    name: "Global Grabbers Sitting Buddha Showpiece",
+    category: "Home Decor",
+    price: "₹370",
+    rating: 4.2,
+    image: "/products/product-21.jpg",
+    description:
+      "A decorative sitting Buddha showpiece that can add a calm, elegant and distinctive touch to your living space.",
+    affiliateUrl: "https://www.amazon.in/dp/B07LF3PQYF?tag=coolgadge0f84-21",
+  },
+  {
+    id: 22,
+    asin: "B0F91D628S",
+    name: "Rousrie Madhubani Framed Traditional Wall Art",
+    category: "Home Decor",
+    price: "₹279",
+    rating: 4.2,
+    image: "/products/product-22.jpg",
+    description:
+      "A traditional-inspired framed artwork that brings colorful Indian artistic character to walls and interiors.",
+    affiliateUrl: "https://www.amazon.in/dp/B0F91D628S?tag=coolgadge0f84-21",
+  },
+  {
+    id: 23,
+    asin: "B0DNMTMMF5",
+    name: "Rajasthani Wall Hanging Decoration",
+    category: "Home Decor",
+    price: "₹198",
+    rating: 4.2,
+    image: "/products/product-23.jpg",
+    description:
+      "A decorative wall hanging inspired by traditional Rajasthani design, perfect for adding personality to your interiors.",
+    affiliateUrl: "https://www.amazon.in/dp/B0DNMTMMF5?tag=coolgadge0f84-21",
+  },
+  {
+    id: 24,
+    asin: "B0CQ23K1SB",
+    name: "SPHINX Ceramic Flower Vase",
+    category: "Home Decor",
+    price: "₹177",
+    rating: 4.2,
+    image: "/products/product-24.jpg",
+    description:
+      "A stylish ceramic flower vase that works as an attractive centerpiece or accent for shelves, tables and living spaces.",
+    affiliateUrl: "https://www.amazon.in/dp/B0CQ23K1SB?tag=coolgadge0f84-21",
+  },
+  {
+    id: 25,
+    asin: "B0DV3K2X9L",
+    name: "VERVENIX Quick-Dry Anti-Slip Bath Mat",
+    category: "Home & Kitchen",
+    price: "₹329",
+    rating: 4.2,
+    image: "/products/product-25.jpg",
+    description:
+      "A quick-drying, water-absorbing bath mat designed to provide a comfortable and practical addition to your bathroom.",
+    affiliateUrl: "https://www.amazon.in/dp/B0DV3K2X9L?tag=coolgadge0f84-21",
+  },
+  {
+    id: 26,
+    asin: "B0FVFTW1SX",
+    name: "Niralasa Portable Multitool Keychain",
+    category: "Travel",
+    price: "₹299",
+    rating: 4.2,
+    image: "/products/product-26.jpg",
+    description:
+      "A compact multitool designed to attach easily to your keychain, making useful tools convenient to carry while traveling.",
+    affiliateUrl: "https://www.amazon.in/dp/B0FVFTW1SX?tag=coolgadge0f84-21",
+  },
+  {
+    id: 27,
+    asin: "B0F29MFX52",
+    name: "Portable Perfume Bottle Atomizer",
+    category: "Travel",
+    price: "₹189",
+    rating: 4.2,
+    image: "/products/product-27.jpg",
+    description:
+      "A compact refillable perfume atomizer that makes carrying your favorite fragrance convenient when you're away from home.",
+    affiliateUrl: "https://www.amazon.in/dp/B0F29MFX52?tag=coolgadge0f84-21",
+  },
+  {
+    id: 28,
+    asin: "B0FS1VB862",
+    name: "ShineXPro Microfiber Cleaning Cloth Roll",
+    category: "Home & Kitchen",
+    price: "₹299",
+    rating: 4.2,
+    image: "/products/product-28.jpg",
+    description:
+      "A practical microfiber cleaning roll for quick everyday cleaning jobs around your home, car and other surfaces.",
+    affiliateUrl: "https://www.amazon.in/dp/B0FS1VB862?tag=coolgadge0f84-21",
+  },
+  {
+    id: 29,
+    asin: "B0DTPGC83R",
+    name: "Portronics Snapcase Multifunctional Adapter",
+    category: "Mobile Accessories",
+    price: "₹321",
+    rating: 4.2,
+    image: "/products/product-29.jpg",
+    description:
+      "A handy multifunctional adapter designed to make connecting and converting devices more convenient.",
+    affiliateUrl: "https://www.amazon.in/dp/B0DTPGC83R?tag=coolgadge0f84-21",
+  },
+  {
+    id: 30,
+    asin: "B0FMRWTFLV",
+    name: "GadgetBite Retractable Charger",
+    category: "Mobile Accessories",
+    price: "₹649",
+    rating: 4.2,
+    image: "/products/product-30.jpg",
+    description:
+      "A compact retractable charging solution designed to keep cables easier to carry and manage on the go.",
+    affiliateUrl: "https://www.amazon.in/dp/B0FMRWTFLV?tag=coolgadge0f84-21",
+  },
+  {
+    id: 31,
+    asin: "B0BLZT3HTT",
+    name: "Wallet Ninja Multitool Card",
+    category: "Travel",
+    price: "₹146",
+    rating: 4.2,
+    image: "/products/product-31.jpg",
+    description:
+      "A slim card-style multitool designed to fit conveniently in a wallet or pocket for everyday portability.",
+    affiliateUrl: "https://www.amazon.in/dp/B0BLZT3HTT?tag=coolgadge0f84-21",
+  },
+  {
+    id: 32,
+    asin: "B0DWLB93BG",
+    name: "Portronics Travel-Friendly Magnetic Screwdriver",
+    category: "Computer Accessories",
+    price: "₹348",
+    rating: 4.2,
+    image: "/products/product-32.jpg",
+    description:
+      "A compact magnetic screwdriver set designed for convenient handling of small repair and household jobs.",
+    affiliateUrl: "https://www.amazon.in/dp/B0DWLB93BG?tag=coolgadge0f84-21",
+  },
+  {
+    id: 33,
+    asin: "B0CQH5N1DY",
+    name: "AERYS Digital Desk Clock",
+    category: "Home Decor",
+    price: "₹295",
+    rating: 4.2,
+    image: "/products/product-33.jpg",
+    description:
+      "A modern digital desk clock that adds a practical time display and a clean decorative touch to your workspace.",
+    affiliateUrl: "https://www.amazon.in/dp/B0CQH5N1DY?tag=coolgadge0f84-21",
+  },
+  {
+    id: 34,
+    asin: "B0GT3VZ62W",
+    name: "PANCA Transparent Mechanical Keychain",
+    category: "Travel",
+    price: "₹249",
+    rating: 4.2,
+    image: "/products/product-34.jpg",
+    description:
+      "A distinctive transparent mechanical-style keychain that makes a fun and compact everyday accessory.",
+    affiliateUrl: "https://www.amazon.in/dp/B0GT3VZ62W?tag=coolgadge0f84-21",
+  },
+  {
+    id: 35,
+    asin: "B0GSVHMY1B",
+    name: "Dreamwave Bluetooth Sleeping Headphones",
+    category: "Mobile Accessories",
+    price: "₹249",
+    rating: 4.2,
+    image: "/products/product-35.jpg",
+    description:
+      "Ultra-thin Bluetooth sleeping headphones designed for comfortable audio use while relaxing or winding down.",
+    affiliateUrl: "https://www.amazon.in/dp/B0GSVHMY1B?tag=coolgadge0f84-21",
+  },
+  {
+    id: 36,
+    asin: "B0H5VWCNWN",
+    name: "JioTag 2nd Generation",
+    category: "Mobile Accessories",
+    price: "₹1,249",
+    rating: 4.2,
+    image: "/products/product-36.jpg",
+    description:
+      "A compact smart tracking device designed to help you keep tabs on important belongings and everyday items.",
+    affiliateUrl: "https://www.amazon.in/dp/B0H5VWCNWN?tag=coolgadge0f84-21",
+  },
+
+  {
+    id: 38,
+    asin: "B0GF2R34GC",
+    name: "Tinkpin Keychain Carabiner",
+    category: "Travel",
+    price: "₹160",
+    rating: 4.2,
+    image: "/products/product-38.jpg",
+    description:
+      "A lightweight carabiner-style keychain designed for conveniently carrying keys and small everyday items.",
+    affiliateUrl: "https://www.amazon.in/dp/B0GF2R34GC?tag=coolgadge0f84-21",
+  },
+  {
+    id: 39,
+    asin: "B0H722HRBZ",
+    name: "Portronics Bluetooth Multi-Device Mouse",
+    category: "Computer Accessories",
+    price: "₹899",
+    rating: 4.2,
+    image: "/products/product-39.jpg",
+    description:
+      "A Bluetooth rechargeable mouse designed for convenient multi-device use, making it useful for work and everyday computing.",
+    affiliateUrl: "https://www.amazon.in/dp/B0H722HRBZ?tag=coolgadge0f84-21",
+  },
+  {
+    id: 40,
+    asin: "B09VDRRXZ5",
+    name: "Portronics Ethernet Adapter",
+    category: "Computer Accessories",
+    price: "₹799",
+    rating: 4.2,
+    image: "/products/product-40.jpg",
+    description:
+      "A practical Ethernet adapter designed to provide wired network connectivity and convenient data transfer for compatible devices.",
+    affiliateUrl: "https://www.amazon.in/dp/B09VDRRXZ5?tag=coolgadge0f84-21",
+  },
+  {
+    id: 41,
+    asin: "B0CW1KVNL8",
+    name: "Minimalist Alpha Arbutin Serum",
+    category: "Personal Care",
+    price: "₹237",
+    rating: 4.2,
+    image: "/products/product-41.jpg",
+    description:
+      "A fragrance-free skincare serum featuring alpha arbutin, designed as part of a simple everyday skincare routine.",
+    affiliateUrl: "https://www.amazon.in/dp/B0CW1KVNL8?tag=coolgadge0f84-21",
   },
 ];
