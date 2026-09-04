@@ -75,6 +75,13 @@ export async function generateMetadata({
     robots: {
       index: true,
       follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
     },
   };
 }
@@ -90,8 +97,68 @@ export default async function ProductPage({
     notFound();
   }
 
+  const productUrl = `${baseUrl}/products/${product.id}`;
+  const imageUrl = `${baseUrl}${product.image}`;
+
+  /*
+   * Product structured data for Google
+   */
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+
+    name: product.name,
+
+    image: [imageUrl],
+
+    description: product.description,
+
+    sku: product.asin,
+
+    category: product.category,
+
+    brand: {
+      "@type": "Brand",
+      name: product.name.split(" ")[0],
+    },
+
+    url: productUrl,
+
+    offers: {
+      "@type": "Offer",
+      url: product.affiliateUrl,
+      priceCurrency: "INR",
+
+      price: product.price.replace(/[^\d.]/g, ""),
+
+      availability: "https://schema.org/InStock",
+
+      itemCondition: "https://schema.org/NewCondition",
+    },
+
+    ...(product.rating > 0
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: product.rating,
+            bestRating: 5,
+            worstRating: 1,
+            ratingCount: 1,
+          },
+        }
+      : {}),
+  };
+
   return (
     <main className="min-h-screen bg-[#f6f8fc]">
+      {/* Product structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productSchema),
+        }}
+      />
+
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-5 md:py-12">
         <div className="grid overflow-hidden rounded-3xl border border-[#e2e8f0] bg-white shadow-sm md:grid-cols-2">
 
