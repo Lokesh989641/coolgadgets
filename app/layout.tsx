@@ -31,10 +31,6 @@ export const metadata: Metadata = {
   creator: "CoolGadgets",
   publisher: "CoolGadgets",
 
-  verification: {
-    google: "1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU",
-  },
-
   alternates: {
     canonical: "https://coolgadgets-mu.vercel.app/",
   },
@@ -76,6 +72,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Search Console verification */}
+        <meta
+          name="google-site-verification"
+          content="1vqs3puUME3tuvpFAiMnoyZUySBFVubCaWVy_noi0lU"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+
       <body>
         <Navbar />
         {children}
